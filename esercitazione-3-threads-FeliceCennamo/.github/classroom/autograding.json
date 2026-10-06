@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Una struttura dati stack thread-safe",
+      "setup": "pip3 -qqq install semgrep==1.76.0 && sudo apt -qq install expect 2>/dev/null >/dev/null",
+      "run": "/bin/bash ./una_struttura_dati_stack_thread-safe/.test/stack.sh",
+      "input": "",
+      "output": "pass",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Lettori-scrittori su più oggetti monitor",
+      "setup": "",
+      "run": "/bin/bash ./lettori-scrittori_su_piu_oggetti_monitor/.test/lettori-scrittori.sh",
+      "input": "",
+      "output": "pass",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Produttore-consumatore con priorità",
+      "setup": "",
+      "run": "/bin/bash ./produttore-consumatore_con_priorita/.test/prod-cons-prio.sh",
+      "input": "",
+      "output": "pass",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
