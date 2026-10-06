@@ -1,0 +1,8 @@
+*.o
+.vscode
+.DS_Store
+start
+client
+server
+programma
+Start

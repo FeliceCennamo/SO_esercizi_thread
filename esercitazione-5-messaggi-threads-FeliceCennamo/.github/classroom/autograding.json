@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Un primo esempio di server multithread",
+      "setup": "pip3 -qqq install semgrep==1.76.0 && sudo apt -qq install expect 2>/dev/null >/dev/null",
+      "run": "/bin/bash ./un_primo_esempio_di_server_multithread/.test/server-multithread.sh",
+      "input": "",
+      "output": "pass",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Remote Procedure Call",
+      "setup": "",
+      "run": "/bin/bash ./remote_procedure_call/.test/remote-procedure-call.sh",
+      "input": "",
+      "output": "pass",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Server aggregatore con thread",
+      "setup": "",
+      "run": "/bin/bash ./server_aggregatore_thread/.test/server-aggregatore.sh",
+      "input": "",
+      "output": "pass",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
